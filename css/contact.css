@@ -1,0 +1,31 @@
+#contact{
+    background-color: #323946;
+}
+
+.input-contact{
+    background-color: #1b2438; 
+    color: white;  
+    width: 100%;
+    border: solid #1b2438;
+}
+
+.input-contact::placeholder{
+    color: #ffff;
+}
+
+.btn-contact{
+    background-color: #0ef;
+}
+
+.btn-contact:hover{
+    background-color: transparent;
+    border: solid #0ef;
+    color:#0ef;
+}
+
+
+.input-contact:focus{
+    background-color: #1b2438;
+    color: white;
+    border: solid #1b2438;
+}

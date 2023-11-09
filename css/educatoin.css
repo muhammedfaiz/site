@@ -1,0 +1,17 @@
+#education{
+    background-color: #1f242d;
+}
+
+.card-edu{
+    background-color: #323946;
+    color: white;
+    width: 70%;
+}
+
+.card:hover{
+    border: 2px solid #0ef;
+}
+
+.edu-heading{
+    color: white;
+}

@@ -1,0 +1,39 @@
+#about-me{
+    background-color: #323946;
+}
+
+.about-img img{
+    width: 70%;
+}
+
+.about-content h4{
+    color: #0ef;
+    font-size: 2.5rem;
+    margin-top: 60px;
+}
+
+.btn-hire-about:hover{
+    color: white;
+}
+
+.about-content p{
+    color: white;
+
+}
+
+/* for 786px */
+
+@media (max-width:786px) {
+    .about-img img{
+        margin: 40px;
+    }
+
+    .about-content{
+        width: 70%;
+        margin-left: 40px;
+    }
+
+    .btn-hire-about{
+        margin-left: 10px;
+    }
+}

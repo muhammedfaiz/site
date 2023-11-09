@@ -1,0 +1,37 @@
+#portfolio{
+    background-color: #1f242d;
+}
+
+.card-portfolio-1,
+.card-portfolio-2{
+    width: 100%;
+    color: grey;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    
+}
+
+.card-portfolio-1{
+    background-image: url('../images/pormpt-1.png');
+}
+
+.card-portfolio-2{
+    background-image: url('../images/nike.png');
+}
+
+.btn-portfolio{
+    border: none;
+    outline: none;
+    height: 40px;
+    cursor: pointer;
+    background-color: #0ef;
+    font-weight: lighter;
+    width: 40%;
+    margin-top: 200px;
+    
+}
+
+.btn-portfolio:hover{
+    color: rgb(30, 88, 92);
+}

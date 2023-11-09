@@ -1,0 +1,92 @@
+.logo{
+    font-family: 'Agbalumo';
+    font-size: 36px;
+}
+
+.navbar{
+    background-color: #1f242d;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: #0ef;
+}
+
+#home{
+    background-color: #1f242d;
+    color: white;
+    width: 100%;
+}
+
+.row-home{
+    --bs-gutter-x:0;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.home-content{
+    margin-top: 30px;
+}
+
+.home-content h3{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.home-content h3 span{
+    color: #0ef;
+}
+
+.home-content h1{
+    font-size: 3.2rem;
+}
+.home-content p{
+    width: 70%;
+}
+
+
+.hero-img img{
+    width: 70%;
+}
+
+.icons{
+   color: #0ef;
+   margin-left: 20px;
+}
+
+.btn-hire,
+.btn-hire-about{
+    border: none;
+    outline: none;
+    height: 40px;
+    cursor: pointer;
+    background-color: #0ef;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.btn-hire:hover{
+    color: white;
+}
+
+.social-media{
+    margin-left: 100px;
+}
+
+
+/* for 786px */
+
+@media (max-width:786px) {
+    .home-content h1{
+        font-size: 2rem;
+    }
+
+    .home-content{
+        width: 70%;
+    }
+    
+}
